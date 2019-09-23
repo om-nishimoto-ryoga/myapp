@@ -12,7 +12,7 @@ class PostsController < ApplicationController
   
   def index
     @newpost = Post.new
-    @posts = Post.all
+    @posts = Post.search(params[:search])
   end
   
   def show

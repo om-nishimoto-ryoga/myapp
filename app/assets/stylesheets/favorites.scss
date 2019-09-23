@@ -14,6 +14,13 @@ background-position: -2800px 0;
 -webkit-transition: background 1s steps(28);
 transition: background 1s steps(28);
 }
+.red_heart{
+    width: 80px;
+    height: 80px;
+    background: url(/);
+    background-position: 0 0;
+    cursor: pointer;
+}
 
 .fa {
     list-style: none;

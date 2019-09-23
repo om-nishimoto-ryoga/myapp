@@ -1,5 +1,10 @@
 <%= render 'shared/sidemenu', post: @newpost, user: current_user %>
 
+<%= form_tag("/posts",method:"get") do %>
+    <input type="text" name="search">
+    <input type="submit" value="検索">
+<% end %>
+
 <h1>Posts</h1>
 <table class="table">
     <thead>
